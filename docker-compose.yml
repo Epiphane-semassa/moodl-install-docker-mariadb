@@ -42,10 +42,10 @@ services:
       - MOODLE_USERNAME=admin
       - MOODLE_PASSWORD=biov@Moodle24
       - MOODLE_EMAIL=sejloxaag.se@gmail.com
-      - MOODLE_SMTP_HOST=smtp.gmail.com
-      - MOODLE_SMTP_PORT_NUMBER=587
-      - MOODLE_SMTP_USER=sedodigittech229@gmail.com
-      - MOODLE_SMTP_PASSWORD=nijxretwneifasmm
+      - MOODLE_SMTP_HOST=smtp_host_link
+      - MOODLE_SMTP_PORT_NUMBER=your_smtp_port
+      - MOODLE_SMTP_USER=your_smtp_username
+      - MOODLE_SMTP_PASSWORD=your_smtp_password
       - MOODLE_SMTP_PROTOCOL=smtp
       - ALLOW_EMPTY_PASSWORD=no
     volumes:
